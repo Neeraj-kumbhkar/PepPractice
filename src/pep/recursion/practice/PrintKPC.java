@@ -20,7 +20,6 @@ public class PrintKPC {
         for (char ch:keyPad.toCharArray()){
             printKPC(str.substring(1), fsf+ch);
         }
-
     }
 
 }
