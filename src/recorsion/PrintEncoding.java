@@ -19,6 +19,9 @@ public class PrintEncoding {
         printEncodings(str.substring(1),ans+(char)('a'+n-1));
         if(str.length()>1){
             n = Integer.parseInt(str.substring(0,2));
+           /*  another way to convert string to int
+           n*=10;
+           n+=str.charAt(1)-'0';*/
             if(n<=26){
                 printEncodings(str.substring(2),ans+(char)('a'+n-1));
             }

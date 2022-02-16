@@ -27,10 +27,15 @@ public class FloodFill {
             return;
         }
         visited[row][col]=true;
-        floodfill(maze, row-1, col, asf+"t", visited);
+        /*floodfill(maze, row-1, col, asf+"t", visited);
         floodfill(maze, row, col-1, asf+"l", visited);
         floodfill(maze, row+1, col, asf+"d", visited);
-        floodfill(maze, row, col+1, asf+"r", visited);
+        floodfill(maze, row, col+1, asf+"r", visited);*/
+        int[][] direction = {{-1,0},{0,-1},{1,0},{0,1}};
+        String[] dirNames = {"t","l","d","r"};
+        for(int i = 0;i<dirNames.length;i++){
+            floodfill(maze, row+direction[i][0], col+direction[i][1], asf+dirNames[i], visited);
+        }
         visited[row][col]=false;
     }
 }
