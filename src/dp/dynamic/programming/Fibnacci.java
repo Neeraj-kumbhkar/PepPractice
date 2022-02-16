@@ -7,7 +7,7 @@ public class Fibnacci {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] qb = new int[n+1];
-        System.out.println("recursive "+fib(n, qb));
+        System.out.println("recursive "+fib(n));
         System.out.println("memoization "+fibMemo(n,qb));
         System.out.println("tabulization "+fibTab(n,qb));
     }
@@ -23,9 +23,9 @@ public class Fibnacci {
         return qb[N];
     }
 
-    private static int fib(int n, int[] qb) {
+    private static int fib(int n) {
         if(n==0||n==1) return n;
-        return fib(n-1, qb)+fib(n-2, qb);
+        return fib(n-1)+fib(n-2);
     }
 
     private static int fibMemo(int n, int[] qb) {
@@ -33,7 +33,7 @@ public class Fibnacci {
         if(qb[n]!=0){
             return qb[n];
         }
-        int fb = fib(n-1, qb)+fib(n-2, qb);
+        int fb = fibMemo(n-1, qb)+fibMemo(n-2, qb);
         qb[n]=fb;
         return fb;
     }

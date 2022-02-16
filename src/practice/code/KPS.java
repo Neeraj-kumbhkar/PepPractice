@@ -13,20 +13,21 @@ public class KPS {
     static String[] arr = {".;","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"};
     public static ArrayList<String> getKPC(String str) {
         if(str.length()==0){
-            ArrayList<String> arr = new ArrayList<>();
-            arr.add("");
-            return arr;
+            ArrayList<String> ans = new ArrayList<>();
+            ans.add("");
+            return ans;
         }
-        ArrayList<String> Paths = new ArrayList<>();
-        ArrayList<String> sl = getKPC(str.substring(1));
-        ArrayList<String> al1 = new ArrayList<>();
+
+        ArrayList<String> faith = getKPC(str.substring(1));
+        ArrayList<String> ans = new ArrayList<>();
         String word = arr[str.charAt(0)-'0'];
-        for (int i=0; i<word.length();i++){
-            for(String s:sl){
-                al1.add(word.charAt(i)+s);
+
+        for(int i=0; i<word.length(); i++){
+            for(String f:faith){
+                ans.add(word.charAt(i)+f);
             }
         }
-        return al1;
+        return ans;
     }
 
 }
