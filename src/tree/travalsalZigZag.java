@@ -2,12 +2,9 @@ package tree;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
-public class LevelOrderTravel {
+public class travalsalZigZag {
     private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
@@ -97,15 +94,29 @@ public class LevelOrderTravel {
         System.out.println("Node Post " + node.data);
     }
 
-    public static void levelOrder(Node node){
+    public static void levelOrderLinewiseZZ(Node node){
         // write your code here
-        Queue<Node> q = new ArrayDeque<>();
-        q.add(node);
-        while(q.size()>0){
-            node = q.remove();
-            System.out.println(node.data+" ");
-            for(Node child:node.children){
-                q.add(child);
+        Stack<Node> ms = new Stack<>();
+        Stack<Node> cs = new Stack<>();
+        int leval = 1;
+        ms.push(node);
+        while(ms.size()>0){
+            node=ms.pop();
+            System.out.print(node.data+" ");
+            if(leval%2==1){
+                for(int i=0;i<node.children.size();i++){
+                    cs.push(node.children.get(i));
+                }
+            } else{
+                for(int i = node.children.size()-1;i>=0;i--){
+                    cs.push(node.children.get(i));
+                }
+            }
+            if(ms.size()==0){
+                ms = cs;
+                cs = new Stack<Node>();
+                leval++;
+                System.out.println();
             }
         }
     }
@@ -120,7 +131,7 @@ public class LevelOrderTravel {
         }
 
         Node root = construct(arr);
-        levelOrder(root);
+        levelOrderLinewiseZZ(root);
     }
 
 }

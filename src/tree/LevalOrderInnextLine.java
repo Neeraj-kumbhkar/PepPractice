@@ -7,10 +7,10 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class LevelOrderTravel {
+public class LevalOrderInnextLine {
     private static class Node {
         int data;
-        ArrayList<Node> children = new ArrayList<>();
+        ArrayList< Node> children = new ArrayList< >();
     }
 
     public static void display(Node node) {
@@ -29,7 +29,7 @@ public class LevelOrderTravel {
     public static Node construct(int[] arr) {
         Node root = null;
 
-        Stack<Node> st = new Stack<>();
+        Stack< Node> st = new Stack< >();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == -1) {
                 st.pop();
@@ -85,10 +85,10 @@ public class LevelOrderTravel {
         return h;
     }
 
-    public static void traversals(Node node){
+    public static void traversals(Node node) {
         System.out.println("Node Pre " + node.data);
 
-        for(Node child: node.children){
+        for (Node child : node.children) {
             System.out.println("Edge Pre " + node.data + "--" + child.data);
             traversals(child);
             System.out.println("Edge Post " + node.data + "--" + child.data);
@@ -97,15 +97,23 @@ public class LevelOrderTravel {
         System.out.println("Node Post " + node.data);
     }
 
-    public static void levelOrder(Node node){
-        // write your code here
-        Queue<Node> q = new ArrayDeque<>();
-        q.add(node);
-        while(q.size()>0){
-            node = q.remove();
-            System.out.println(node.data+" ");
-            for(Node child:node.children){
-                q.add(child);
+    public static void levelOrderLinewise(Node node) {
+        Queue< Node> queue = new ArrayDeque< >();
+        queue.add(node);
+
+        Queue< Node> cqueue = new ArrayDeque< >();
+        while (queue.size() > 0) {
+            node = queue.remove();
+            System.out.print(node.data + " ");
+
+            for (Node child : node.children) {
+                cqueue.add(child);
+            }
+
+            if (queue.size() == 0) {
+                queue = cqueue;
+                cqueue = new ArrayDeque< >();
+                System.out.println();
             }
         }
     }
@@ -120,7 +128,7 @@ public class LevelOrderTravel {
         }
 
         Node root = construct(arr);
-        levelOrder(root);
+        levelOrderLinewise(root);
     }
-
 }
+

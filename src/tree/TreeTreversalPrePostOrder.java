@@ -106,8 +106,7 @@ public class TreeTreversalPrePostOrder {
         Node root = construct(arr);
         traversals(root);
 
-        Que
     }
 
 }
-}
+
