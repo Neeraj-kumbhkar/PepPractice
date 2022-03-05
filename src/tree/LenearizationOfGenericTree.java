@@ -166,6 +166,19 @@ public class LenearizationOfGenericTree {
         return slc;
     }
 
+    //efficient way
+    public static Node linearize2(Node node){
+        if(node.children.size()==0) return node;
+        Node lkc = linearize2(node.children.get(node.children.size()-1));
+        while (node.children.size()>1){
+            Node lastCh = node.children.remove(node.children.size()-1);
+            Node slck = linearize2(node.children.get(node.children.size()-1));
+            slck.children.add(lastCh);
+        }
+        return lkc;
+    }
+
+
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -177,6 +190,7 @@ public class LenearizationOfGenericTree {
 
         Node root = construct(arr);
         linearize(root);
+        linearize2(root);
         display(root);
     }
 
