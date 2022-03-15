@@ -751,3 +751,41 @@ https://www.lintcode.com/problem/1534/
 https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 https://leetcode.com/problems/serialize-and-deserialize-bst/
+
+=======================================================================================
+GRAPH
+https://leetcode.com/problems/find-if-path-exists-in-graph/
+https://www.pepcoding.com/resources/online-java-foundation/graphs/gcc-official/ojquestion
+
+7
+8
+0 1 10
+1 2 10
+2 3 10
+0 3 10
+3 4 10
+4 5 10
+5 6 10
+4 6 10
+0
+6
+
+
+https://leetcode.com/problems/is-graph-bipartite/
+https://leetcode.com/problems/rotting-oranges/
+https://leetcode.com/problems/binary-prefix-divisible-by-5/
+https://leetcode.com/problems/word-pattern/
+https://leetcode.com/problems/word-pattern/discuss/73402/8-lines-simple-Java
+https://nados.io/question/spread-of-infection
+https://www.geeksforgeeks.org/calculation-of-address-of-element-of-1-d-2-d-and-3-d-using-row-major-and-column-major-order/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+https://leetcode.com/problems/course-schedule/
+https://leetcode.com/problems/course-schedule-ii/
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+https://leetcode.com/problems/redundant-connection/
+https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+https://www.codingninjas.com/codestudio/problem-details/smallest-equivalent-string_1381859
+https://leetcode.com/contest/biweekly-contest-73/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/
