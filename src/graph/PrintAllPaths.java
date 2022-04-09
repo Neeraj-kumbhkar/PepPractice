@@ -30,11 +30,12 @@ public class PrintAllPaths {
 
         // write all your codes here
         boolean[] visited = new boolean[vtces];
-        printAallPaths(graph, src, dest, visited, "0");
+        printAallPaths(graph, src, dest, visited, "");
     }
 
     public static void printAallPaths(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited, String psf) {
         if (src == dest) {
+            psf += src;
             System.out.println(psf);
             return;
         }
