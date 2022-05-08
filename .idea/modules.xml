@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DsAlgoInScala/DsAlgoInScala.iml" filepath="$PROJECT_DIR$/DsAlgoInScala/DsAlgoInScala.iml" />
       <module fileurl="file://$PROJECT_DIR$/DsAndAlgoInJava.iml" filepath="$PROJECT_DIR$/DsAndAlgoInJava.iml" />
     </modules>
   </component>

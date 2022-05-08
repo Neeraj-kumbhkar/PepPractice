@@ -10,12 +10,9 @@ object ArrayRotation {
     val n=a.length
     val ak=k%n
     val rot=if(ak<0) k+n else ak
-    val l1=reverse(a.take(rot))
-    val l2=reverse(a.takeRight(n-rot))
-    reverse(l1++l2)
+    reverse(reverse(a.take(rot))++reverse(a.takeRight(n-rot)))
   }
   def main(args: Array[String]): Unit = {
-    val arr = Array(1,2,3,4,5)
-    rotateAnArray(arr,-2).foreach(i=>print(i))
+    rotateAnArray(Array(1,2,3,4,5),-2).foreach(i=>print(i))
   }
 }
