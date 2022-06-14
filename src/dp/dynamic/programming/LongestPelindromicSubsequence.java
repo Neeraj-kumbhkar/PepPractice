@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class LongestPelindromicSubsequence {
     public static void main(String[] args) {
-        //String s = "abccbc";
+        String s = "abccbc";
         String s = "bbbab";
-        //System.out.println(lPSs(s,0,s.length()-1));
+        System.out.println(lPSs(s,0,s.length()-1));
         int[][] dp = new int[5][5];
         Arrays.fill(dp,-1);
         System.out.println(lPSsMomo(s,0,s.length()-1,dp));

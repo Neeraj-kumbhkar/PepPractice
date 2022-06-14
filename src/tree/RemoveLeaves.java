@@ -136,7 +136,7 @@ public class RemoveLeaves {
     }
 
     public static void removeLeaves(Node node) {
-        // write your code here
+         write your code here
         for(int i = node.children.size()-1;i>=0;i--){
             if(node.children.get(i).children.size()==0){
                 node.children.remove(node.children.get(i));

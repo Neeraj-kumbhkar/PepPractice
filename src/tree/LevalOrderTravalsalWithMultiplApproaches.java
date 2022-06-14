@@ -194,9 +194,9 @@ public class LevalOrderTravalsalWithMultiplApproaches {
         }
 
         Node root = construct(arr);
-        //levelOrderLinewise(root);
-        //levelOrderLinewise1(root);
-        //levelOrderLinewise2(root);
+        levelOrderLinewise(root);
+        levelOrderLinewise1(root);
+        levelOrderLinewise2(root);
         levelOrderLinewisePair(root);
 
     }

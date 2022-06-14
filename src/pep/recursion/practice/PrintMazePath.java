@@ -10,10 +10,10 @@ public class PrintMazePath {
         printMazePaths(1, 1, dr, dc,"");
     }
 
-    // sr - source row
-    // sc - source column
-    // dr - destination row
-    // dc - destination column
+     sr - source row
+     sc - source column
+     dr - destination row
+     dc - destination column
     public static void printMazePaths(int sr, int sc, int dr, int dc, String psf) {
 
         if(sr==dr && sc==dc){

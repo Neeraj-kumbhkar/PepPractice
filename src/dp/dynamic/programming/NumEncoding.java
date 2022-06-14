@@ -43,7 +43,7 @@ public class NumEncoding {
 
 
     public static void main(String[] args) {
-        //System.out.println(numDecodings("12345"));
+        System.out.println(numDecodings("12345"));
         System.out.println(numDecodingsMemo("12345", new HashMap<String,Integer>()));
 
     }

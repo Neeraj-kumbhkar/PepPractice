@@ -54,8 +54,8 @@ public class MyLinkList {
             nwNode.next = head;
             head = nwNode;
         } else {
-            // 2-->4-->6-->3-->null
-            // 2-->4-->5-->6-->3-->null
+             2-->4-->6-->3-->null
+             2-->4-->5-->6-->3-->null
             ListNode pre = head;
             int count = 1;
             while (count < position - 1) {
@@ -76,20 +76,20 @@ public class MyLinkList {
         m.insertAtFirst(2);
         m.insertAtFirst(4);
         m.insrtLast(8);
-       // m.printLinkList(m.head);
-        //m.insertAtPosition(1,3);
-        //m.printLinkList(m.head);
+        m.printLinkList(m.head);
+        m.insertAtPosition(1,3);
+        m.printLinkList(m.head);
         /*m.dltFist();
         m.printLinkList();
         m.dltFist();
         m.printLinkList();*/
-        //m.dltLast();
+        m.dltLast();
         m.printLinkList(m.head);
-        //m.dltLast();
-        //ListNode d =m.dltAtPosition(3);
-        //System.out.print(d.data);
-        //ListNode r =m.reverse();
-        //m.printLinkList(r);
+        m.dltLast();
+        ListNode d =m.dltAtPosition(3);
+        System.out.print(d.data);
+        ListNode r =m.reverse();
+        m.printLinkList(r);
         ListNode mid = m.findMiddleNode();
         System.out.println(mid.data);
 

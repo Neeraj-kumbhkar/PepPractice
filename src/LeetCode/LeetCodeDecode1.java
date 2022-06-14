@@ -15,12 +15,12 @@ public class LeetCodeDecode1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        // System.out.println(numDecoding(s));
-        // System.out.println(numDecodingMemo(s,new HashMap<String,Integer>()));
-        //System.out.println(numDecodingWithIdx(s,0));
+         System.out.println(numDecoding(s));
+         System.out.println(numDecodingMemo(s,new HashMap<String,Integer>()));
+        System.out.println(numDecodingWithIdx(s,0));
         int[] arr = new int[s.length() + 1];
         Arrays.fill(arr, -1);
-        //System.out.println(numDecodingMemoWithIdx(s, 0, arr));
+        System.out.println(numDecodingMemoWithIdx(s, 0, arr));
         System.out.println(numDecodingTabuWithIdx(s, 0, arr));
 
     }
@@ -39,7 +39,7 @@ public class LeetCodeDecode1 {
         }
         return ans;
     }
-    //memoization with hashmap
+    memoization with hashmap
 
     public static int numDecodingMemo(String s, HashMap<String, Integer> dp) {
         if (s.length() == 0) {
@@ -107,13 +107,13 @@ public class LeetCodeDecode1 {
             dp[idx] = 0;
             continue;
         }
-        // if(dp[idx] != -1) return dp[idx];
+         if(dp[idx] != -1) return dp[idx];
         int ans = 0;
-        ans += dp[idx + 1];//numDecodingMemoWithIdx(s,idx+1,dp);
+        ans += dp[idx + 1];numDecodingMemoWithIdx(s,idx+1,dp);
         if (idx < s.length() - 1) {
             n = n * 10 + (s.charAt(idx + 1) - '0');
             if (n <= 26) {
-                ans += dp[idx + 2];//numDecodingMemoWithIdx(s,idx+2,dp);
+                ans += dp[idx + 2];numDecodingMemoWithIdx(s,idx+2,dp);
             }
         }
         dp[idx] = ans;

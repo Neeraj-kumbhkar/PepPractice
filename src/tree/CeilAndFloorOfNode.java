@@ -48,7 +48,7 @@ public class CeilAndFloorOfNode {
         static int ceil;
         static int floor;
         public static void ceilAndFloor(Node node, int data) {
-            // Write your code here
+             Write your code here
             if(node.data>data){
                 if(ceil > node.data){
                     ceil = node.data;

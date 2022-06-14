@@ -6,7 +6,7 @@ import java.util.Stack;
 public class DuplicateBracket {
     public static void main(String[] args) {
         Scanner  sc = new Scanner(System.in);
-        String str = sc.nextLine(); //(a + b) + ((c + d)) should be true
+        String str = sc.nextLine(); (a + b) + ((c + d)) should be true
         System.out.println(duplicatBracket(str));
     }
 

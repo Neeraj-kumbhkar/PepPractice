@@ -3,7 +3,7 @@ package StringAndArray;
 public class MaximumProductSubArray152 {
     public static int maxProduct(int[] nums){
         int currentProduct =1;
-        int ans = Integer.MIN_VALUE; //-infinity
+        int ans = Integer.MIN_VALUE; -infinity
         for(int i:nums){
             currentProduct*=i;
             ans = Math.max(ans,currentProduct);
@@ -29,8 +29,8 @@ public class MaximumProductSubArray152 {
         Input: nums = [-2,0,-1]
         Output: 0
         Explanation: The result cannot be 2, because [-2,-1] is not a subarray.*/
-        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{2,3,-2,4})); //6
-        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{-2,0,-1}));  //0
-        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{-2,-1,0,4,3,0,3,2}));//12
+        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{2,3,-2,4})); 6
+        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{-2,0,-1}));  0
+        System.out.println(MaximumProductSubArray152.maxProduct(new int[]{-2,-1,0,4,3,0,3,2}));12
     }
 }

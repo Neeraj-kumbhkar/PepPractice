@@ -38,7 +38,7 @@ object RingAndRod2103 {
 
   def main(args: Array[String]): Unit = {
       val s = "B0B6G0R6R0R6G9"
-      //println(countPoints(s))
+      println(countPoints(s))
     println(countPointsFunctional(s))
   }
 }

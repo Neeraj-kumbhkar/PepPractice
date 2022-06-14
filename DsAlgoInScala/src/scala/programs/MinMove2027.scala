@@ -24,6 +24,6 @@ object MinMove2027 {
   }
   def main(args: Array[String]): Unit = {
     println(minimumMoves1("XXOXXX0XXXXX0X0X0X0XXX0X000X0X00XX000X0X0X00X00X00X0"))
-    //println(minimumMoves1("00000000"))
+    println(minimumMoves1("00000000"))
   }
 }

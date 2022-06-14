@@ -1,7 +1,7 @@
 package StringAndArray;
 
 import java.util.Scanner;
-//https://leetcode.com/problems/maximum-swap/
+https:leetcode.com/problems/maximum-swap/
 public class MaximumSwapLeetCode670 {
     public static int maximumSwap(int num){
         char[] str = (num+"").toCharArray();

@@ -63,8 +63,8 @@ public class MyDoublyLinkList {
 
     public static void main(String[] args) {
         MyDoublyLinkList dl = new MyDoublyLinkList();
-        //dl.insrtNodeAtFirst(2);
-        //dl.insrtNodeAtFirst(4);
+        dl.insrtNodeAtFirst(2);
+        dl.insrtNodeAtFirst(4);
         dl.insertAtLast(10);
         dl.insertAtLast(11);
         dl.displayFwd();

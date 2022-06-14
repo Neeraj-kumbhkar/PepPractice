@@ -2,7 +2,7 @@ package StringAndArray;
 
 import java.util.Arrays;
 
-//https://leetcode.com/problems/boats-to-save-people/
+https:leetcode.com/problems/boats-to-save-people/
 /*Input: people = [1,2], limit = 3
         Output: 1
         Explanation: 1 boat (1, 2)

@@ -3,8 +3,8 @@ package dp.dynamic.programming;
 public class MazePathMemo {
     public static void main(String[] args) {
 
-        //System.out.println(mazePathRec(0, 0, 2, 2));
-        //System.out.println(mazePathRecMemo(0, 0, 3, 3,new int[4][4]));
+        System.out.println(mazePathRec(0, 0, 2, 2));
+        System.out.println(mazePathRecMemo(0, 0, 3, 3,new int[4][4]));
         System.out.println(mazePathtABULATION(0, 0, 3, 3,new int[4][4]));
 
     }
@@ -51,8 +51,8 @@ public class MazePathMemo {
                     dp[sr][sc] = 1;
                     continue;
                 }
-                //if (sr == dr && sc == dc) return dp[sr][sc]=1;
-                //if(dp[sr][sc]!=0) return dp[sr][sc];
+                if (sr == dr && sc == dc) return dp[sr][sc]=1;
+                if(dp[sr][sc]!=0) return dp[sr][sc];
                 int[][] dirn = {{0, 1}, {1, 0}, {1, 1}};
                 int ans = 0;
                 for (int[] dir : dirn) {

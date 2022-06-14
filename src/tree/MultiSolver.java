@@ -52,7 +52,7 @@ public class MultiSolver {
     static int max;
     static int hight;
     public static void multiSlover(Node node,int depth){
-        // write your code here
+         write your code here
     size++;
     min = Math.min(min, node.data);
     max = Math.max(max, node.data);
@@ -81,7 +81,7 @@ public class MultiSolver {
         System.out.println("min= "+min);
         System.out.println("max= "+max);
         System.out.println("hight= "+hight);
-        // display(root);
+         display(root);
     }
 
 }

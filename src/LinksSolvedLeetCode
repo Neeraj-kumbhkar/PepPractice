@@ -25,7 +25,7 @@ public static String[] buff_arr=new String[]{".;","abc","def","ghi","jkl","mno",
 vector<string>helper={".;","abc","def","ghi","jkl","mno","pqrs","tu","vwx","yz"};
 
 vector<string> getKPC(string s){
-    //Write your code here
+    Write your code here
     if(s.size()==0){
         return {""};
     }
@@ -120,10 +120,10 @@ public int minCostClimbingStairs(int[] cost) {
         return cost[i] + Math.min(minCost(cost, i + 1), minCost(cost, i + 2));
     }
 
-https://docs.google.com/spreadsheets/d/1H27xcxatmUpbpJvFfEfmRHftd3V9X14RcoNh_M9JBlg/edit?usp=sharing
+//https:docs.google.com/spreadsheets/d/1H27xcxatmUpbpJvFfEfmRHftd3V9X14RcoNh_M9JBlg/edit?usp=sharing
 
 
-https://github.com/Jitmanew-Tyagi/JSP4/blob/main/Main.java
+//https:github.com/Jitmanew-Tyagi/JSP4/blob/main/Main.java
 
 
 Students ans can be wrong or write
@@ -133,35 +133,7 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
-        // write your code here
-        Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int[] arr = new int[n];
-        for(int i=0;i<n;i++)
-        {
-            arr[i] = scn.nextInt();
-        }
-        int x =scn.nextInt();
-        int idx = firstIndex(arr,0,x);
-        System.out.println(idx);
-    }
 
-    public static int firstIndex(int[] arr, int idx, int x){
-        if(idx == arr.length)
-        {
-            return -1;
-        }
-
-        if(x == arr[idx])
-        {
-            return idx;
-        }
-       return  firstIndex(arr,idx+1,x);
-
-    }
-
-}
 =============
 public static int[] allIndices(int[] arr, int x, int idx, int fsf) {
         if(idx == arr.length){
@@ -183,12 +155,12 @@ public static int[] allIndices(int[] arr, int x, int idx, int fsf) {
 
     }
 
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-https://leetcode.com/problems/minimum-moves-to-convert-string/
-https://leetcode.com/problems/minimum-moves-to-convert-string/
-https://leetcode.com/problems/rotate-image/
-https://leetcode.com/problems/longest-substring-without-repeating-characters/
-https://leetcode.com/problems/valid-anagram/
+https:leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+https:leetcode.com/problems/minimum-moves-to-convert-string/
+https:leetcode.com/problems/minimum-moves-to-convert-string/
+https:leetcode.com/problems/rotate-image/
+https:leetcode.com/problems/longest-substring-without-repeating-characters/
+https:leetcode.com/problems/valid-anagram/
 
 public String findSubString( String str) {
 
@@ -250,7 +222,7 @@ public String findSubString( String str) {
 
 leetcode problems
 
-https://leetcode.com/problems/watering-plants-ii/
+https:leetcode.com/problems/watering-plants-ii/
 
 int minimumRefill(vector<int>& plants, int capacityA, int capacityB) {
         int b = 0;
@@ -279,7 +251,7 @@ int minimumRefill(vector<int>& plants, int capacityA, int capacityB) {
             e--;
         }
 
-        //now b == e
+        now b == e
 
         if(e==b&&plants[b]>ca&&plants[b]>cb) count++;
 
@@ -376,7 +348,7 @@ public:
         for(int i = 0; i < n; i++) {
             char color = rings[i];
             int index = rings[i+1]-'0';
-            //cout<<i<<" "<<color<<endl;
+            cout<<i<<" "<<color<<endl;
             if(color=='B') {
                 v[index]->Blue = true;
             }
@@ -390,7 +362,7 @@ public:
         int ans = 0;
         for(int i = 0; i < 10; i++) {
             Colors * currobj = v[i];
-            //cout<<i<<" "<<currobj->Blue<<" "<<currobj->Green<<" "<<currobj->Red<<endl;
+            cout<<i<<" "<<currobj->Blue<<" "<<currobj->Green<<" "<<currobj->Red<<endl;
             if(currobj->Blue && currobj->Green && currobj->Red)
                 ans++
 ====================================
@@ -465,19 +437,19 @@ StringBuilder sb=new StringBuilder(s);
 2138, 2139, 2103, 2103, 2104, 2105
 
 
-https://leetcode.com/problems/decode-ways-ii/
-https://leetcode.com/problems/decode-ways/
-https://practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1/
-https://leetcode.com/problems/decode-ways-ii/
-https://leetcode.com/problemset/all/?search=decode+ways+&page=1
-https://leetcode.com/problems/sum-of-subarray-ranges/
-https://leetcode.com/problems/watering-plants-ii/
-https://leetcode.com/problems/climbing-stairs/submissions/
-https://leetcode.com/problems/rings-and-rods/
+https:leetcode.com/problems/decode-ways-ii/
+https:leetcode.com/problems/decode-ways/
+https:practice.geeksforgeeks.org/problems/friends-pairing-problem5425/1/
+https:leetcode.com/problems/decode-ways-ii/
+https:leetcode.com/problemset/all/?search=decode+ways+&page=1
+https:leetcode.com/problems/sum-of-subarray-ranges/
+https:leetcode.com/problems/watering-plants-ii/
+https:leetcode.com/problems/climbing-stairs/submissions/
+https:leetcode.com/problems/rings-and-rods/
 
 pepcoding telegram link
 
-https://t.me/pepcoding.
+https:t.me/pepcoding.
 =========================
 
 Climb Stairs With Variable Jumps
@@ -493,7 +465,7 @@ public static int climb(int n, int[] arr,int idx){
         return ans;
     }
 
-https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+https:leetcode.com/problems/find-the-winner-of-the-circular-game/
 
 
 
@@ -540,7 +512,7 @@ public static String rec_replace(String str){
 
     }
 
-	https://leetcode.com/problems/longest-palindromic-subsequence/     516
+	https:leetcode.com/problems/longest-palindromic-subsequence/     516
 	public int rec(String s, int left, int right) {
         if(left>right) return 0;
         if(left==right) return 1;
@@ -554,7 +526,7 @@ public static String rec_replace(String str){
 
 70
 
-https://leetcode.com/problems/wildcard-matching/
+https:leetcode.com/problems/wildcard-matching/
 int m=s.length();
         int n=p.length();
         vector<vector<bool>>dp(m+1,vector<bool>(n+1,0));
@@ -570,12 +542,12 @@ int m=s.length();
             }
         }
         return dp[m][n];
-https://leetcode.com/problems/longest-palindromic-substring/
+https:leetcode.com/problems/longest-palindromic-substring/
 
 GOfG
 subset sum problems
 
-https://leetcode.com/problems/uncrossed-lines/
+https:leetcode.com/problems/uncrossed-lines/
 class Solution {
     public int maxUncrossedLines(int[] nums1, int[] nums2) {
         int[][] dp = new int[nums1.length+1][nums2.length+1];
@@ -634,10 +606,10 @@ class Solution {
     }
 }
 
-https://leetcode.com/problems/coin-change-2/
-https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
-https://leetcode.com/problems/jump-game/
-https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+https:leetcode.com/problems/coin-change-2/
+https:leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+https:leetcode.com/problems/jump-game/
+https:leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 
 
 Stack< Character> st = new Stack<>();
@@ -683,14 +655,14 @@ Stack< Character> st = new Stack<>();
         }
 
 
-https://leetcode.com/problems/online-stock-span/
-https://leetcode.com/problems/largest-rectangle-in-histogram/
-https://leetcode.com/problems/asteroid-collision/
-https://leetcode.com/problems/simplify-path/
-https://leetcode.com/problems/sliding-window-maximum/
-https://leetcode.com/problems/min-stack/
+https:leetcode.com/problems/online-stock-span/
+https:leetcode.com/problems/largest-rectangle-in-histogram/
+https:leetcode.com/problems/asteroid-collision/
+https:leetcode.com/problems/simplify-path/
+https:leetcode.com/problems/sliding-window-maximum/
+https:leetcode.com/problems/min-stack/
 
-https://leetcode.com/problems/binary-tree-paths/
+https:leetcode.com/problems/binary-tree-paths/
 
 
 
@@ -736,26 +708,26 @@ public static void printKLevelsDown(Node node, int k){
 }
 
 
-https://leetcode.com/problems/binary-tree-inorder-traversal/
+https:leetcode.com/problems/binary-tree-inorder-traversal/
 
-https://leetcode.com/problems/validate-binary-search-tree/
+https:leetcode.com/problems/validate-binary-search-tree/
 
-https://leetcode.com/problems/validate-binary-search-tree/
+https:leetcode.com/problems/validate-binary-search-tree/
 
 leetcode 173
 leetcode 98
 
-https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
-https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-https://www.lintcode.com/problem/1534/
-https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
-https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
-https://leetcode.com/problems/serialize-and-deserialize-bst/
+https:leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https:leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+https:www.lintcode.com/problem/1534/
+https:leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+https:leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https:leetcode.com/problems/serialize-and-deserialize-bst/
 
 =======================================================================================
 GRAPH
-https://leetcode.com/problems/find-if-path-exists-in-graph/
-https://www.pepcoding.com/resources/online-java-foundation/graphs/gcc-official/ojquestion
+https:leetcode.com/problems/find-if-path-exists-in-graph/
+https:www.pepcoding.com/resources/online-java-foundation/graphs/gcc-official/ojquestion
 
 7
 8
@@ -771,28 +743,28 @@ https://www.pepcoding.com/resources/online-java-foundation/graphs/gcc-official/o
 6
 
 
-https://leetcode.com/problems/is-graph-bipartite/
-https://leetcode.com/problems/rotting-oranges/
-https://leetcode.com/problems/binary-prefix-divisible-by-5/
-https://leetcode.com/problems/word-pattern/
-https://leetcode.com/problems/word-pattern/discuss/73402/8-lines-simple-Java
-https://nados.io/question/spread-of-infection
-https://www.geeksforgeeks.org/calculation-of-address-of-element-of-1-d-2-d-and-3-d-using-row-major-and-column-major-order/
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
-https://leetcode.com/problems/course-schedule/
-https://leetcode.com/problems/course-schedule-ii/
-https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-https://leetcode.com/problems/redundant-connection/
-https://leetcode.com/problems/number-of-operations-to-make-network-connected/
-https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
-https://www.codingninjas.com/codestudio/problem-details/smallest-equivalent-string_1381859
-https://leetcode.com/contest/biweekly-contest-73/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/
-https://leetcode.com/problems/max-area-of-island/discuss/1855182/Java-solution-TC-(m*n)-SC(1)
-https://leetcode.com/problems/satisfiability-of-equality-equations/
-https://leetcode.com/problems/optimize-water-distribution-in-a-village/
-https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/graphs/optimize-water-distribution-official/ojquestion
+https:leetcode.com/problems/is-graph-bipartite/
+https:leetcode.com/problems/rotting-oranges/
+https:leetcode.com/problems/binary-prefix-divisible-by-5/
+https:leetcode.com/problems/word-pattern/
+https:leetcode.com/problems/word-pattern/discuss/73402/8-lines-simple-Java
+https:nados.io/question/spread-of-infection
+https:www.geeksforgeeks.org/calculation-of-address-of-element-of-1-d-2-d-and-3-d-using-row-major-and-column-major-order/
+https:leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https:leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https:leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+https:leetcode.com/problems/course-schedule/
+https:leetcode.com/problems/course-schedule-ii/
+https:leetcode.com/problems/longest-increasing-path-in-a-matrix/
+https:leetcode.com/problems/redundant-connection/
+https:leetcode.com/problems/number-of-operations-to-make-network-connected/
+https:leetcode.com/problems/lexicographically-smallest-equivalent-string/
+https:www.codingninjas.com/codestudio/problem-details/smallest-equivalent-string_1381859
+https:leetcode.com/contest/biweekly-contest-73/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/
+https:leetcode.com/problems/max-area-of-island/discuss/1855182/Java-solution-TC-(m*n)-SC(1)
+https:leetcode.com/problems/satisfiability-of-equality-equations/
+https:leetcode.com/problems/optimize-water-distribution-in-a-village/
+https:www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/graphs/optimize-water-distribution-official/ojquestion
 
 Adobe
 number of islands, kth max in binary search tree

@@ -6,9 +6,9 @@ public class LeetCode70StaireCase {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             int n = sc.nextInt();
-            //System.out.println(rec(n));
+            System.out.println(rec(n));
             int[] qb = new int[n+1];
-            //System.out.println(recMemoization(n,qb));
+            System.out.println(recMemoization(n,qb));
             System.out.println(recTabulation(n,qb));
         }
     /*private static int rec(int n) {

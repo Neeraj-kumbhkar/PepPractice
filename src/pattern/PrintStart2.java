@@ -9,14 +9,14 @@ public class PrintStart2 {
         int st = n;
         int sp = 0;
         for (int i = 0; i < n; i++) {
-            //System.out.print(sp);
+            System.out.print(sp);
             for (int j=0;j<sp;j++){
                 System.out.print("\t");
             }
             for (int j=0;j<st;j++){
                 System.out.print("*\t");
             }
-           // System.out.print(st);
+            System.out.print(st);
             st--;
             sp++;
             System.out.println();

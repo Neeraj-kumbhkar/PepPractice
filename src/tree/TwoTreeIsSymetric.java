@@ -84,7 +84,7 @@ public class TwoTreeIsSymetric {
     }
 
     public static boolean IsSymmetric(Node node) {
-        // write your code here
+         write your code here
         return areMirror(node,node);
     }
 
@@ -111,7 +111,7 @@ public class TwoTreeIsSymetric {
         Node root = construct(arr);
         boolean sym = IsSymmetric(root);
         System.out.println(sym);
-        // display(root);
+         display(root);
     }
 
 }

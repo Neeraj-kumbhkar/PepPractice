@@ -27,7 +27,7 @@ public class GetConnectedGraph {
         ArrayList<ArrayList<Integer>> comps = new ArrayList<>();
         boolean[] visited = new boolean[vtces];
 
-        // write your code here
+         write your code here
         for (int i = 0; i < vtces; i++) {
             ArrayList<Integer> comp = new ArrayList<>();
             if (visited[i] == false) {

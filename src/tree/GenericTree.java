@@ -49,7 +49,7 @@ public class GenericTree {
     }
 
     public static int size(Node node){
-        // write your code here
+         write your code here
         int ans = 0;
         for(Node n:node.children){
             ans+=size(n);
@@ -58,7 +58,7 @@ public class GenericTree {
     }
 
     public static void main(String[] args) throws Exception {
-        //int[] arr = new int[]{10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
+        int[] arr = new int[]{10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,-1,-1,90,-1,-1,40,100,-1,-1,-1};
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];
@@ -70,7 +70,7 @@ public class GenericTree {
         Node root = construct(arr);
         int sz = size(root);
         System.out.println(sz);
-        // display(root);
+         display(root);
     }
 
 }
