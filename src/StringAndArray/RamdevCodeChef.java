@@ -1,7 +1,7 @@
 package StringAndArray;
 
 import java.util.Scanner;
-https:www.codechef.com/problems/RAMDEV
+//https:www.codechef.com/problems/RAMDEV
 public class RamdevCodeChef {
 
     public static void main(String[] args) {

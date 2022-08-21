@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class LongestPelindromicSubsequence {
     public static void main(String[] args) {
         String s = "abccbc";
-        String s = "bbbab";
+        //String s = "bbbab";
         System.out.println(lPSs(s,0,s.length()-1));
         int[][] dp = new int[5][5];
         Arrays.fill(dp,-1);

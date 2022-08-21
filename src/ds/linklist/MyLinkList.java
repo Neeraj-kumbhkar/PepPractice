@@ -54,8 +54,8 @@ public class MyLinkList {
             nwNode.next = head;
             head = nwNode;
         } else {
-             2-->4-->6-->3-->null
-             2-->4-->5-->6-->3-->null
+             //2-->4-->6-->3-->null
+             //2-->4-->5-->6-->3-->null
             ListNode pre = head;
             int count = 1;
             while (count < position - 1) {
