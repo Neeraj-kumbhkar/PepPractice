@@ -10,8 +10,8 @@ public class PrintIncrementDecrement {
     }
 
     private static void printIncreasingRec(int n) {
-        expactaion  1234554321
-        faith
+        //expactaion  1234554321
+       /// faith
         int i = 0;
         printIncreasingRec1(n, i);
     }

@@ -15,10 +15,10 @@ public class SumOfTwoArr {
         for(int i = 0;i<n2;i++){
             a2[i] = sc.nextInt();
         }
-          3 1 0 7 5
-        1 1 1 1 1 1
-        1 4 2 1 8 6
-            max=6
+       //   3 1 0 7 5
+        //1 1 1 1 1 1
+       // 1 4 2 1 8 6
+        //    max=6
         int[] res = new int[n1>n2?n1:n2];
         int p1 = a1.length-1;
         int p2 = a2.length-1;

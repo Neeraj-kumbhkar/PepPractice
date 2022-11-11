@@ -11,10 +11,10 @@ public class MazePath {
         System.out.println(getMazePaths(1, 1, dr, dc));
     }
 
-     sr - source row
-     sc - source column
-     dr - destination row
-     dc - destination column
+    // sr - source row
+     //sc - source column
+    // dr - destination row
+    // dc - destination column
     public static ArrayList<String> getMazePaths(int sr, int sc, int dr, int dc) {
         if(sr==dr && sc==dc){
             ArrayList<String> a = new ArrayList<>();

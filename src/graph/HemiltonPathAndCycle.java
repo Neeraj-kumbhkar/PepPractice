@@ -35,7 +35,7 @@ public class HemiltonPathAndCycle {
 
             int src = Integer.parseInt(br.readLine());
 
-             write all your codes here
+           //  //write your code here
             HashSet<Integer> visited = new HashSet<>();
             printHamiltonianPathAndCycle(graph,src,visited,src+"",src);
         }

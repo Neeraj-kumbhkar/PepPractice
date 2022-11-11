@@ -17,7 +17,7 @@ public class FloodFill {
         floodfill(arr, 0, 0, "",visited);
     }
 
-     asf -> answer so far
+     //asf -> answer so far
     public static void floodfill(int[][] maze, int row, int col, String asf, boolean[][] visited) {
         if(row<0||col<0||row== maze.length||col== maze[0].length||maze[row][col]==1 || visited[row][col]==true){
             return;

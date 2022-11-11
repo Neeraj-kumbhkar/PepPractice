@@ -149,7 +149,7 @@ public class LenearizationOfGenericTree {
     }
 
     public static void linearize(Node node){
-         write your code here
+         //write your code here
         for(Node ch:node.children){
             linearize(ch);
         }
@@ -166,7 +166,7 @@ public class LenearizationOfGenericTree {
         return slc;
     }
 
-    efficient way
+    //efficient way
     public static Node linearize2(Node node){
         if(node.children.size()==0) return node;
         Node lkc = linearize2(node.children.get(node.children.size()-1));

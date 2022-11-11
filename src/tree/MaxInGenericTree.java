@@ -60,7 +60,7 @@ public class MaxInGenericTree {
     }
 
     public static int max(Node node) {
-         write your code here
+         //write your code here
         int max = Integer.MIN_VALUE;
         for(Node child:node.children){
             max = Math.max(max,max(child));

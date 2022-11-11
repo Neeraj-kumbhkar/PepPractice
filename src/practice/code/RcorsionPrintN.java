@@ -3,7 +3,7 @@ package practice.code;
 import java.util.Scanner;
 
 public class RcorsionPrintN {
-    print 12344321
+    //print 12344321
     public static void main(String[] args) {
         /*Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();*/

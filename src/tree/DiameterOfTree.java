@@ -76,7 +76,7 @@ public class DiameterOfTree {
         Node root = construct(arr);
         findDiamter(root);
         System.out.println(dia);
-         write your code here
+         //write your code here
     }
 
 }

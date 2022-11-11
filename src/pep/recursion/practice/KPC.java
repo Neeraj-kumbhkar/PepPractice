@@ -15,7 +15,7 @@ public class KPC {
             res1.add("");
             return res1;
         }
-        78   8 == add 7 to infornt of 8
+        //78   8 == add 7 to infornt of 8
         char a = str.charAt(0);
         String code = arr1[a-'0'];
         ArrayList<String> rec = getKPC(str.substring(1));

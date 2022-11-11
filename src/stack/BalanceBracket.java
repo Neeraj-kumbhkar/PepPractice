@@ -14,7 +14,7 @@ public class BalanceBracket {
         Stack<Character> st = new Stack<>();
 
         for (char ch:str.toCharArray()){
-            opening bracket
+           // opening bracket
             if(ch=='('||ch=='{'||ch=='['){
                 st.push(ch);
             } else if(ch == ')') {

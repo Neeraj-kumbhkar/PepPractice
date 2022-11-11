@@ -1,5 +1,5 @@
 package inhartnc;
 
-public static class A {
+/*public static class A {
 
-}
+}*/

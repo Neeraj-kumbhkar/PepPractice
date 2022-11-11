@@ -3,8 +3,8 @@ package pep.recursion.practice;
 import java.util.Scanner;
 
 public class PrintDecreasing {
-    expactation  5 4 3 2 1
-    expactation  print 5 --> PrintDecreasing(4)
+    ///expactation  5 4 3 2 1
+   // expactation  print 5 --> PrintDecreasing(4)
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

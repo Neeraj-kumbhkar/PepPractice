@@ -95,7 +95,7 @@ public class travalsalZigZag {
     }
 
     public static void levelOrderLinewiseZZ(Node node){
-         write your code here
+         //write your code here
         Stack<Node> ms = new Stack<>();
         Stack<Node> cs = new Stack<>();
         int leval = 1;

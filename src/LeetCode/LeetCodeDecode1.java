@@ -39,7 +39,7 @@ public class LeetCodeDecode1 {
         }
         return ans;
     }
-    memoization with hashmap
+    //memoization with hashmap
 
     public static int numDecodingMemo(String s, HashMap<String, Integer> dp) {
         if (s.length() == 0) {

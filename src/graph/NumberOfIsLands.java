@@ -19,7 +19,7 @@ public class NumberOfIsLands {
             }
         }
 
-         write your code here
+         //write your code here
         boolean[][] visited = new boolean[arr.length][arr[0].length];
         int count = 0;
         for (int i = 0; i < arr.length; i++) {

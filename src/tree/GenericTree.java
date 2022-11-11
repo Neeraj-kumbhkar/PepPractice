@@ -49,7 +49,7 @@ public class GenericTree {
     }
 
     public static int size(Node node){
-         write your code here
+         //write your code here
         int ans = 0;
         for(Node n:node.children){
             ans+=size(n);

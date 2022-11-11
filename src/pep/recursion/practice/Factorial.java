@@ -11,7 +11,8 @@ public class Factorial {
 
     private static int factorial(int n) {
         if(n==0) return 1;
-        expactation  5*factorial(4)
+        //expactation
+        // 5*factorial(4)
         return n*factorial(n-1);
     }
 }

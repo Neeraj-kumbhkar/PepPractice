@@ -84,7 +84,7 @@ public class TwoTreeIsSymetric {
     }
 
     public static boolean IsSymmetric(Node node) {
-         write your code here
+         //write your code here
         return areMirror(node,node);
     }
 

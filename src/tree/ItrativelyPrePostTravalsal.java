@@ -53,7 +53,7 @@ public class ItrativelyPrePostTravalsal {
             }
         }
         public static void IterativePreandPostOrder(Node node) {
-             write your code here
+             //write your code here
             Stack<Pair> st = new Stack<>();
             st.push(new Pair(node,-1));
             String pre = "";

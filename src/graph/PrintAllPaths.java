@@ -28,7 +28,7 @@ public class PrintAllPaths {
         int src = Integer.parseInt(br.readLine());
         int dest = Integer.parseInt(br.readLine());
 
-         write all your codes here
+         //write your code here
         boolean[] visited = new boolean[vtces];
         printAallPaths(graph, src, dest, visited, "");
     }
